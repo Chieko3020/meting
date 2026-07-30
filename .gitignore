@@ -6,3 +6,4 @@ __pycache__/
 *.pid
 .DS_Store
 .specstory/
+.vscode/settings.json
