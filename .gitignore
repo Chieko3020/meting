@@ -3,3 +3,6 @@
 node_modules/
 __pycache__/
 *.pyc
+*.pid
+.DS_Store
+.specstory/
