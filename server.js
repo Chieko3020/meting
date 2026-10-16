@@ -257,5 +257,5 @@ app.get('/', async (req, res) => {
     }
 });
 
-app.listen(port, () => console.log(`🚀 Enhanced Adapter running on port ${port}`));
+app.listen(port, process.env.HOST || '', () => console.log(`🚀 Enhanced Adapter running on port ${port}`));
 
